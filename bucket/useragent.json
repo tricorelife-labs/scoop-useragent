@@ -1,12 +1,12 @@
 {
-  "version": "0.3.13",
+  "version": "0.3.14",
   "description": "A powerful AI agent CLI with multi-model support and tool use",
   "homepage": "https://github.com/tricorelife-labs/useragent-releases",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.3.13/UserAgent-x86_64-pc-windows-msvc.zip",
-      "hash": "c2dba812c11f7a3ececd3152f79aa13465ba41e41b2cc072e08781f8c0317e73"
+      "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.3.14/UserAgent-x86_64-pc-windows-msvc.zip",
+      "hash": "729f02ce4f35d2359137ec3d2b348dceb3fb1243adef05b39b46aaaa074be5bf"
     }
   },
   "bin": [
