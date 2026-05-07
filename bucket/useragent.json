@@ -1,25 +1,29 @@
-{
-  "version": "0.3.19",
-  "description": "A powerful AI agent CLI with multi-model support and tool use",
-  "homepage": "https://github.com/tricorelife-labs/useragent-releases",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.3.19/UserAgent-x86_64-pc-windows-msvc.zip",
-      "hash": "0cb3010b90d8773356097a84cbf90c67c6576649260626a27fe7828a50baa997"
-    }
-  },
-  "bin": [
-    ["useragent-cli.exe", "useragent"]
-  ],
-  "checkver": {
-    "github": "https://github.com/tricorelife-labs/useragent-releases"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v$version/UserAgent-x86_64-pc-windows-msvc.zip"
-      }
-    }
-  }
+﻿{
+    "version":  "0.4.4",
+    "license":  "MIT",
+    "autoupdate":  {
+                       "architecture":  {
+                                            "64bit":  {
+                                                          "url":  "https://github.com/tricorelife-labs/useragent-releases/releases/download/v$version/UserAgent-x86_64-pc-windows-msvc.zip"
+                                                      }
+                                        }
+                   },
+    "architecture":  {
+                         "64bit":  {
+                                       "hash":  "ab194dd5bc8a907cfb66620a23dcd9a22f546af8c0dbb1b6e03d8f81b3b2eb6a",
+                                       "url":  "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.4.4/UserAgent-x86_64-pc-windows-msvc.zip"
+                                   }
+                     },
+    "description":  "Powerful AI agent CLI with multi-model support and tool use",
+    "checkver":  {
+                     "github":  "https://github.com/tricorelife-labs/useragent-releases"
+                 },
+    "homepage":  "https://github.com/tricorelife-labs/useragent-releases",
+    "bin":  [
+                [
+                    "useragent-cli.exe",
+                    "useragent"
+                ],
+                "axum_server.exe"
+            ]
 }
