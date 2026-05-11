@@ -1,29 +1,26 @@
-﻿{
-    "version":  "0.5.0-rc.2",
-    "license":  "MIT",
-    "autoupdate":  {
-                       "architecture":  {
-                                            "64bit":  {
-                                                          "url":  "https://github.com/tricorelife-labs/useragent-releases/releases/download/v$version/UserAgent-x86_64-pc-windows-msvc.zip"
-                                                      }
-                                        }
-                   },
-    "architecture":  {
-                         "64bit":  {
-                                       "hash":  "1be043a97589df5319ab0962ac54c465354ea91355b85d8bd717d95059da8fa7",
-                                       "url":  "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.5.0-rc.2/UserAgent-x86_64-pc-windows-msvc.zip"
-                                   }
-                     },
-    "description":  "Powerful AI agent CLI with multi-model support and tool use",
-    "checkver":  {
-                     "github":  "https://github.com/tricorelife-labs/useragent-releases"
-                 },
-    "homepage":  "https://github.com/tricorelife-labs/useragent-releases",
-    "bin":  [
-                [
-                    "useragent-cli.exe",
-                    "useragent"
-                ],
-                "axum_server.exe"
-            ]
+{
+  "version": "0.5.0-rc.3",
+  "description": "Powerful AI agent CLI with multi-model support and tool use",
+  "homepage": "https://github.com/tricorelife-labs/useragent-releases",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.5.0-rc.3/UserAgent-x86_64-pc-windows-msvc.zip",
+      "hash": "1983dae854d0786694bca630ccca4d7f2cc75c1b81b551533de994538010ccbe"
+    }
+  },
+  "bin": [
+    ["useragent-cli.exe", "useragent"],
+    "axum_server.exe"
+  ],
+  "checkver": {
+    "github": "https://github.com/tricorelife-labs/useragent-releases"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v$version/UserAgent-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
 }
