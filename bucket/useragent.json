@@ -1,27 +1,30 @@
-{
-  "version": "0.5.0-rc.18",
-  "description": "Powerful AI agent CLI with multi-model support and tool use",
-  "homepage": "https://github.com/tricorelife-labs/useragent-releases",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.5.0-rc.18/UserAgent-x86_64-pc-windows-msvc.zip",
-      "hash": "a603c9ae41e00ecb193518941fe8dedb8420877fc0e35cfca3edfa0feec05a07"
-    }
-  },
-  "bin": [
-    ["useragent-cli.exe", "useragent"],
-    "axum_server.exe",
-    "useragent-opencli-mcp.exe"
-  ],
-  "checkver": {
-    "github": "https://github.com/tricorelife-labs/useragent-releases"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/tricorelife-labs/useragent-releases/releases/download/v$version/UserAgent-x86_64-pc-windows-msvc.zip"
-      }
-    }
-  }
+﻿{
+    "version":  "0.5.0-rc.19",
+    "license":  "MIT",
+    "autoupdate":  {
+                       "architecture":  {
+                                            "64bit":  {
+                                                          "url":  "https://github.com/tricorelife-labs/useragent-releases/releases/download/v$version/UserAgent-x86_64-pc-windows-msvc.zip"
+                                                      }
+                                        }
+                   },
+    "architecture":  {
+                         "64bit":  {
+                                       "hash":  "8d8c1c9f17f68fb294eb87e49438393ad0a109189c6e6806cb9f335fbd9e548f",
+                                       "url":  "https://github.com/tricorelife-labs/useragent-releases/releases/download/v0.5.0-rc.19/UserAgent-x86_64-pc-windows-msvc.zip"
+                                   }
+                     },
+    "description":  "Powerful AI agent CLI with multi-model support and tool use",
+    "checkver":  {
+                     "github":  "https://github.com/tricorelife-labs/useragent-releases"
+                 },
+    "homepage":  "https://github.com/tricorelife-labs/useragent-releases",
+    "bin":  [
+                [
+                    "useragent-cli.exe",
+                    "useragent"
+                ],
+                "axum_server.exe",
+                "useragent-opencli-mcp.exe"
+            ]
 }
